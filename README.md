@@ -15,7 +15,7 @@ Curso: 2025/2026
 
 Clasificación binaria de supervivencia (corta ≤450 días / larga >450 días) en pacientes fallecidos con carcinoma escamoso de cabeza y cuello (HNSCC) a partir de la cohorte TCGA-HNSCC.
 
-El modelo opera sobre un **grafo heterogéneo** con 590 nodos miRNA y 5.305 isoformas de ARN mensajero, conectados mediante aristas de co-expresión Spearman y represión derivadas de TargetScan, integrando además el estado HPV como covariable clínica. La clasificación se realiza sobre los **198 pacientes fallecidos** de la cohorte con datos completos en ambas modalidades ómicas.
+El modelo integra expresión de isoformas de ARN mensajero, perfiles de miRNA y estado HPV en un **grafo heterogéneo** entrenado sobre los **198 pacientes fallecidos** de la cohorte con datos completos en ambas modalidades ómicas.
 
 **AUC media: 0.648 · Mejor fold: 0.712**
 
