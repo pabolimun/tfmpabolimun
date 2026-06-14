@@ -17,7 +17,7 @@ Clasificación binaria de supervivencia (corta ≤450 días / larga >450 días) 
 
 El modelo integra expresión de isoformas de ARN mensajero, perfiles de miRNA y estado HPV en un **grafo heterogéneo** entrenado sobre los **198 pacientes fallecidos** de la cohorte con datos completos en ambas modalidades ómicas.
 
-**AUC media: 0.648 · Mejor fold: 0.712**
+**AUC media: 0.6526 · Mejor fold: 0.7120**
 
 ---
 
